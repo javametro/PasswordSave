@@ -114,5 +114,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MvvmLight">
+      <Version>5.4.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmLightLibs">
+      <Version>5.4.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
